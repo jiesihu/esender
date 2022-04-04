@@ -37,3 +37,18 @@ def time_counter(user = '',  password='',to = [''],\
         return inner
 
     return decorator
+
+
+def Esender(user = '',  password='',to = [''],\
+                 subject = 'No subject',content = None, attachment = None):
+    '''
+    user(str)
+    password(str)
+    to(str)(list(str))
+    subject(str)
+    content(str)(list(str))
+    attachment(str)(list(str))
+    '''
+    yag = yagmail.SMTP(user=user, password=password, host='smtp.163.com', encoding='GBK')
+    yag.send(to, subject,content,attachment)
+    yag.close()

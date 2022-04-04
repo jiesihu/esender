@@ -8,6 +8,6 @@ setup(name='esender',
       license='MIT',
       packages=['esender'],
       install_requires=[
-            'yagmail>=0.15.277',  #所需要包的版本号
+            'yagmail>=0.15.277',  
             ],
       zip_safe=False)
