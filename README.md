@@ -1,8 +1,14 @@
 # esender
 ## Introduction
 This package is developed based on yagmail and is used to send e-mail in python. It can only work with 163 e-mail now. Personaly, I use it to send deep learning progress to my mailbox. (Significantly reduced my anxiety)  
+## Installation
+```
+pip install esender
 
-## Notes for mail 163 
+# With Tsinghua open source mirror
+pip install esender -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+```
+## Notes for @163.com 
 Usually, you need to turn on the IMAP/SMTP service of your account manually. That is free. It will generate an authorization password which is exactly the input password in the example below. Note that you don't need the password of your account to send the e-mail.
 
 ## Usage
@@ -33,4 +39,4 @@ main()
 
 # To do
 - [ ] Add help()  
-- [ ] Works with more e-mail
+- [ ] Work with more e-mail
