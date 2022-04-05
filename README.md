@@ -1,6 +1,6 @@
 # esender
 ## Introduction
-This package is developed based on yagmail and is used to send messages using 163 e-mail, so you have to own a 163 account first :-). Personaly, I use it to send deep learning progress to my mailbox. (Significantly reduced my anxiety)  
+This package is developed based on yagmail and is used to send e-mail in python. It can only work with 163 e-mail now. Personaly, I use it to send deep learning progress to my mailbox. (Significantly reduced my anxiety)  
 
 ## Notes for mail 163 
 Usually, you need to turn on the IMAP/SMTP service of your account manually. That is free. It will generate an authorization password which is exactly the input password in the example below. Note that you don't need the password of your account to send the e-mail.
