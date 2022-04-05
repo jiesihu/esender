@@ -2,7 +2,7 @@ from setuptools import setup
 setup(name='esender',
       version='0.1.0',
       description='send email for notification',
-      url=' ',
+      url='https://github.com/jiesihu/esender',
       author='Jiesi',
       author_email='jiesihu@usc.com',
       license='MIT',
