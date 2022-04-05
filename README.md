@@ -33,4 +33,4 @@ main()
 
 # To do
 - [ ] Add help()  
-- [ ] Works with more e-mail
+- [ ] Work with more e-mail
