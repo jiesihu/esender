@@ -1,6 +1,6 @@
 # esender
 ## Introduction
-This package is developed based on yagmail and is used to send e-mail in python. It can only work with 163 e-mail now. Personaly, I use it to send deep learning progress to my mailbox. (Significantly reduced my anxiety)  
+This package is developed based on yagmail and is used to send e-mail in python. It can only work with 163 e-mail now. I use it to send deep learning progress to my mailbox.  
 ## Installation
 ```
 pip install esender
