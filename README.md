@@ -9,7 +9,7 @@ pip install esender
 pip install esender -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 ## Notes for @163.com 
-Usually, you need to turn on the IMAP/SMTP service of your account manually. That is free. It will generate an authorization password which is exactly the input password in the example below. Note that you don't need the password of your account to send the e-mail.
+Usually, you need to turn on the IMAP/SMTP service of your account manually. That is free. It will generate an authorization password which is exactly the input password in the example below. Note that you don't need the password of your account but the authorization password to send the e-mail.
 
 ## Usage
 
